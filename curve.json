@@ -1,0 +1,38 @@
+{
+  "language": "ru",
+  "built": "2026-09-21",
+  "candidates": 424352,
+  "shipped": 210392,
+  "families": 4,
+  "knee": null,
+  "steps": [
+    {
+      "families": 1,
+      "added": "commoncrawl",
+      "kept": 0,
+      "share": 0,
+      "gained": 0
+    },
+    {
+      "families": 2,
+      "added": "wikimedia",
+      "kept": 0,
+      "share": 0,
+      "gained": 0
+    },
+    {
+      "families": 3,
+      "added": "leipzig",
+      "kept": 173653,
+      "share": 0.409219,
+      "gained": 173653
+    },
+    {
+      "families": 4,
+      "added": "tatoeba",
+      "kept": 210392,
+      "share": 0.495796,
+      "gained": 36739
+    }
+  ]
+}
