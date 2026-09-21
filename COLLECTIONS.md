@@ -15,7 +15,7 @@ collection rather than reuse its record only has to put the file back where the 
 | `fw2` | 937,082,939 |  | — |
 | `wiki:ru` | 811,159,367 |  | — |
 | `wikisource:ru` | 578,540,809 |  | — |
-| `ia` | 48,882,445 | Internet Archive russian books — literature, and the register a newspaper never reaches | [archive-ru](https://archive.org/details/booksbylanguage_russian) |
+| `ia` | 83,351,865 | Internet Archive russian books — literature, and the register a newspaper never reaches | [archive-ru](https://archive.org/details/booksbylanguage_russian) |
 | `tat` | 5,358,805 |  | — |
 | `lz:rus_news_2024_1M` | 3,706,880 |  | — |
 | `lz:rus_news_2023_1M` | 3,704,689 |  | — |
