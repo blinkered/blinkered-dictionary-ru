@@ -2,10 +2,10 @@
   "language": "ru",
   "built": "2026-09-21",
   "candidates": 424352,
-  "shipped": 217546,
+  "shipped": 297071,
   "conforms": true,
-  "families": 9,
-  "checkable": 7,
+  "families": 10,
+  "checkable": 8,
   "knee": 5,
   "steps": [
     {
@@ -24,52 +24,59 @@
     },
     {
       "families": 3,
-      "added": "leipzig",
-      "kept": 173653,
-      "share": 0.409219,
-      "gained": 173653
+      "added": "internetarchive",
+      "kept": 259643,
+      "share": 0.611858,
+      "gained": 259643
     },
     {
       "families": 4,
-      "added": "tatoeba",
-      "kept": 210392,
-      "share": 0.495796,
-      "gained": 36739
+      "added": "leipzig",
+      "kept": 284718,
+      "share": 0.670948,
+      "gained": 25075
     },
     {
       "families": 5,
-      "added": "prochtenie.org",
-      "kept": 215436,
-      "share": 0.507682,
-      "gained": 5044
+      "added": "tatoeba",
+      "kept": 294882,
+      "share": 0.6949,
+      "gained": 10164
     },
     {
       "families": 6,
-      "added": "kommersant.ru",
-      "kept": 216340,
-      "share": 0.509813,
-      "gained": 904
+      "added": "prochtenie.org",
+      "kept": 296350,
+      "share": 0.698359,
+      "gained": 1468
     },
     {
       "families": 7,
       "added": "vedomosti.ru",
-      "kept": 217089,
-      "share": 0.511578,
-      "gained": 749
+      "kept": 296666,
+      "share": 0.699104,
+      "gained": 316
     },
     {
       "families": 8,
-      "added": "ria.ru",
-      "kept": 217422,
-      "share": 0.512362,
-      "gained": 333
+      "added": "kommersant.ru",
+      "kept": 296924,
+      "share": 0.699712,
+      "gained": 258
     },
     {
       "families": 9,
+      "added": "ria.ru",
+      "kept": 297025,
+      "share": 0.69995,
+      "gained": 101
+    },
+    {
+      "families": 10,
       "added": "lenta.ru",
-      "kept": 217546,
-      "share": 0.512655,
-      "gained": 124
+      "kept": 297071,
+      "share": 0.700058,
+      "gained": 46
     }
   ]
 }

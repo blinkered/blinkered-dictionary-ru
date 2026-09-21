@@ -12,12 +12,13 @@ collection rather than reuse its record only has to put the file back where the 
 
 | collection | tokens | what it is | where it came from |
 | --- | ---: | --- | --- |
-| `fw2` | 937,082,939 | FineWeb-2 — the crawled web, each document citing its own URL | [fineweb2-rus.parquet](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/resolve/main/data/rus_Cyrl/train/000_00000.parquet) |
-| `wiki:ru` | 811,159,367 | Russian Wikipedia — modern encyclopedic prose | [ruwiki.xml.bz2](https://dumps.wikimedia.org/ruwiki/latest/ruwiki-latest-pages-articles.xml.bz2) |
-| `wikisource:ru` | 578,540,809 | Wikisource — same Wikimedia family, so it corroborates rather than counts | [ruwikisource.xml.bz2](https://dumps.wikimedia.org/ruwikisource/latest/ruwikisource-latest-pages-articles.xml.bz2) |
-| `tat` | 5,358,805 | Tatoeba — contemporary, conversational | [rus_sentences.tsv](https://downloads.tatoeba.org/exports/per_language/rus/rus_sentences.tsv.bz2) |
-| `lz:rus_news_2024_1M` | 3,706,880 | Leipzig rus_news_2024_1M — modern news, cited by the page each sentence came from | rus_news_2024_1M |
-| `lz:rus_news_2023_1M` | 3,704,689 | Leipzig rus_news_2023_1M — modern news, cited by the page each sentence came from | rus_news_2023_1M |
+| `fw2` | 937,082,939 |  | — |
+| `wiki:ru` | 811,159,367 |  | — |
+| `wikisource:ru` | 578,540,809 |  | — |
+| `ia` | 13,056,469 | Internet Archive russian books — literature, and the register a newspaper never reaches | [archive-ru](https://archive.org/details/booksbylanguage_russian) |
+| `tat` | 5,358,805 |  | — |
+| `lz:rus_news_2024_1M` | 3,706,880 |  | — |
+| `lz:rus_news_2023_1M` | 3,704,689 |  | — |
 | `web:vedomosti.ru` | 320,594 |  | fetched from `vedomosti.ru`, recorded in `searched.tsv` |
 | `web:ria.ru` | 283,121 |  | fetched from `ria.ru`, recorded in `searched.tsv` |
 | `web:prochtenie.org` | 228,375 |  | fetched from `prochtenie.org`, recorded in `searched.tsv` |

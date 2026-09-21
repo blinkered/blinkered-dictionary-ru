@@ -8,9 +8,9 @@ the curve a careful builder would get, not the order this repository happens to 
 The first two families keep nothing, which is not padding — it is the shape of a rule that needs
 three independent sources.
 
-Candidates: 424,352. Shipped: 217,546.
+Candidates: 424,352. Shipped: 297,071.
 
-Of 9 families, **7 can be checked by fetching** —
+Of 10 families, **8 can be checked by fetching** —
 a stable identifier or a page we fetched ourselves. The other 2 are crawls
 somebody else made, whose locators record where they found the sentence; the document that holds
 it is their published corpus, not the web.
@@ -19,12 +19,13 @@ it is their published corpus, not the web.
 | --- | --- | --- | --- | --- |
 | 1 | `commoncrawl` | 0 | 0.0% | — |
 | 2 | `wikimedia` | 0 | 0.0% | — |
-| 3 | `leipzig` | 173,653 | 40.9% | +173,653 |
-| 4 | `tatoeba` | 210,392 | 49.6% | +36,739 |
-| 5 | `prochtenie.org` | 215,436 | 50.8% | +5,044 |
-| 6 | `kommersant.ru` | 216,340 | 51.0% | +904 |
-| 7 | `vedomosti.ru` | 217,089 | 51.2% | +749 |
-| 8 | `ria.ru` | 217,422 | 51.2% | +333 |
-| 9 | `lenta.ru` | 217,546 | 51.3% | +124 |
+| 3 | `internetarchive` | 259,643 | 61.2% | +259,643 |
+| 4 | `leipzig` | 284,718 | 67.1% | +25,075 |
+| 5 | `tatoeba` | 294,882 | 69.5% | +10,164 |
+| 6 | `prochtenie.org` | 296,350 | 69.8% | +1,468 |
+| 7 | `vedomosti.ru` | 296,666 | 69.9% | +316 |
+| 8 | `kommersant.ru` | 296,924 | 70.0% | +258 |
+| 9 | `ria.ru` | 297,025 | 70.0% | +101 |
+| 10 | `lenta.ru` | 297,071 | 70.0% | +46 |
 
-**Diminishing returns from family 5** (`prochtenie.org`, +5,044), where a family first added less than a twentieth of what the best one did.
+**Diminishing returns from family 5** (`tatoeba`, +10,164), where a family first added less than a twentieth of what the best one did.
