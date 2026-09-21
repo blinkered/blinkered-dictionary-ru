@@ -78,12 +78,15 @@ export const SOURCES = [
   },
   {
     id: 'tat',
+    from: 'https://downloads.tatoeba.org/exports/per_language/rus/rus_sentences.tsv.bz2',
     what: 'Tatoeba — contemporary, conversational',
     needs: `${CACHE}rus_sentences.tsv`,
     documents: () => tatoebaDocuments(`${CACHE}rus_sentences.tsv`),
   },
   {
     id: 'fw2',
+    // Where it came from, so a half-finished download is caught before it is read.
+    from: 'https://huggingface.co/datasets/HuggingFaceFW/fineweb-2/resolve/main/data/rus_Cyrl/train/000_00000.parquet',
     what: 'FineWeb-2 — the crawled web, each document citing its own URL',
     needs: `${CACHE}fineweb2-rus.parquet`,
     documents: () => fineweb2Documents(`${CACHE}fineweb2-rus.parquet`),
@@ -109,6 +112,9 @@ export const HARVEST = existsSync(new URL('searched.tsv', import.meta.url).pathn
 
 /** Russian publishers, each its own family. */
 export const DOMAINS = [
+  // Books and literary journals, a register the news domains above never reach
+  'lib.ru', 'ilibrary.ru', 'rvb.ru', 'feb-web.ru', 'magazines.gorky.media',
+  'gorky.media', 'polka.academy', 'prochtenie.org',
   'ria.ru', 'tass.ru', 'kommersant.ru', 'vedomosti.ru', 'rbc.ru', 'lenta.ru',
   'gazeta.ru', 'iz.ru', 'rg.ru', 'interfax.ru', 'fontanka.ru', 'meduza.io',
   'novayagazeta.eu', 'republic.ru', 'habr.com', '3dnews.ru', 'cnews.ru',

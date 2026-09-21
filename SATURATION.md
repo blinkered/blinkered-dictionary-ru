@@ -8,9 +8,9 @@ the curve a careful builder would get, not the order this repository happens to 
 The first two families keep nothing, which is not padding — it is the shape of a rule that needs
 three independent sources.
 
-Candidates: 424,352. Shipped: 210,392.
+Candidates: 424,352. Shipped: 217,546.
 
-Of 4 families, **2 can be checked by fetching** —
+Of 9 families, **7 can be checked by fetching** —
 a stable identifier or a page we fetched ourselves. The other 2 are crawls
 somebody else made, whose locators record where they found the sentence; the document that holds
 it is their published corpus, not the web.
@@ -21,5 +21,10 @@ it is their published corpus, not the web.
 | 2 | `wikimedia` | 0 | 0.0% | — |
 | 3 | `leipzig` | 173,653 | 40.9% | +173,653 |
 | 4 | `tatoeba` | 210,392 | 49.6% | +36,739 |
+| 5 | `prochtenie.org` | 215,436 | 50.8% | +5,044 |
+| 6 | `kommersant.ru` | 216,340 | 51.0% | +904 |
+| 7 | `vedomosti.ru` | 217,089 | 51.2% | +749 |
+| 8 | `ria.ru` | 217,422 | 51.2% | +333 |
+| 9 | `lenta.ru` | 217,546 | 51.3% | +124 |
 
-No family after the third fell below a twentieth of the best single gain: this language was still being paid for every source it consulted.
+**Diminishing returns from family 5** (`prochtenie.org`, +5,044), where a family first added less than a twentieth of what the best one did.

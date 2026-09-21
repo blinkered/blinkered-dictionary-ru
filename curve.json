@@ -2,11 +2,11 @@
   "language": "ru",
   "built": "2026-09-21",
   "candidates": 424352,
-  "shipped": 210392,
+  "shipped": 217546,
   "conforms": true,
-  "families": 4,
-  "checkable": 2,
-  "knee": null,
+  "families": 9,
+  "checkable": 7,
+  "knee": 5,
   "steps": [
     {
       "families": 1,
@@ -35,6 +35,41 @@
       "kept": 210392,
       "share": 0.495796,
       "gained": 36739
+    },
+    {
+      "families": 5,
+      "added": "prochtenie.org",
+      "kept": 215436,
+      "share": 0.507682,
+      "gained": 5044
+    },
+    {
+      "families": 6,
+      "added": "kommersant.ru",
+      "kept": 216340,
+      "share": 0.509813,
+      "gained": 904
+    },
+    {
+      "families": 7,
+      "added": "vedomosti.ru",
+      "kept": 217089,
+      "share": 0.511578,
+      "gained": 749
+    },
+    {
+      "families": 8,
+      "added": "ria.ru",
+      "kept": 217422,
+      "share": 0.512362,
+      "gained": 333
+    },
+    {
+      "families": 9,
+      "added": "lenta.ru",
+      "kept": 217546,
+      "share": 0.512655,
+      "gained": 124
     }
   ]
 }

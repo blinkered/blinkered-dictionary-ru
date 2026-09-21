@@ -9,7 +9,8 @@
     "saturation": "node saturation.mjs",
     "verify": "node verify.mjs",
     "harvest": "node harvest.mjs",
-    "dumps": "node check-dumps.mjs"
+    "dumps": "node check-dumps.mjs",
+    "collections": "node collections.mjs"
   },
   "dependencies": {
     "@blinkered/attestation": "link:../blinkered-attestation",
